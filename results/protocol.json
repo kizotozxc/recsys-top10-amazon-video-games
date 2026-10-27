@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "validation",
+    "cutoff": "2013-01-01 00:00:00+00:00",
+    "history_events": 152665,
+    "future_events": 52460,
+    "history_users": 19161,
+    "candidate_items": 9600,
+    "cold_user_events": 23966,
+    "cold_item_events": 14655,
+    "warm_relevant_events": 14391,
+    "evaluation_users": 2906,
+    "evaluated_relevant_events": 7314,
+    "evaluation_user_sha256": "4b484f7a1218bf3a724e9db3a96524f5ed82b4843c7f94f41be27ab06efd1901",
+    "candidate_sha256": "8c02d60997a77e48343d3fb0501ed69f98b266df4e6e8b789b7687b136c96df4"
+  },
+  {
+    "stage": "test",
+    "cutoff": "2014-01-01 00:00:00+00:00",
+    "history_events": 205125,
+    "future_events": 26655,
+    "history_users": 23294,
+    "candidate_items": 10460,
+    "cold_user_events": 7294,
+    "cold_item_events": 4124,
+    "warm_relevant_events": 12274,
+    "evaluation_users": 3532,
+    "evaluated_relevant_events": 7872,
+    "evaluation_user_sha256": "940f6e2f323e4b8e50553eee961e8f98592c628bb9a60d18b13312aca1d88ba2",
+    "candidate_sha256": "91eb4e69056d65aed1960bbd718c26ff0a15875f5bd861a632cd38b98f144743"
+  }
+]

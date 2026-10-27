@@ -1,0 +1,23 @@
+{
+  "source": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+  "raw_reviews": 231780,
+  "clean_reviews": 231780,
+  "raw_users": 24303,
+  "raw_items": 10672,
+  "clean_users": 24303,
+  "clean_items": 10672,
+  "missing_fields": {
+    "user": 0,
+    "item": 0,
+    "rating": 0,
+    "timestamp": 0
+  },
+  "duplicate_pairs": 0,
+  "metadata_raw_products": 50953,
+  "metadata_missing_titles": 10392,
+  "metadata_missing_categories": 0,
+  "sha256": {
+    "reviews_Video_Games_5.json.gz": "035690169fa2bba30cd0ae0c3e7dbf7bc58efde65fc1742a9ce85986e283b09c",
+    "meta_Video_Games.json.gz": "b7bf4c724632874b931056e48957775822c6f0c9092f5bbf2d449694bec36180"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "course": "https://github.com/girafe-ai/recsys/tree/26f",
+  "branch": "26f",
+  "checked_date": "2026-10-26",
+  "reviewed_seminars": [
+    {
+      "path": "seminars/01_intro/seminar.ipynb",
+      "datasets": [
+        "MovieLens 100K",
+        "Last.fm"
+      ]
+    },
+    {
+      "path": "seminars/02_ranking/seminar.ipynb",
+      "datasets": [
+        "Reddit"
+      ]
+    },
+    {
+      "path": "seminars/03_cf/seminar.ipynb",
+      "datasets": [
+        "MovieLens 100K"
+      ]
+    },
+    {
+      "path": "seminars/04_als/seminar.ipynb",
+      "datasets": [
+        "MovieLens 1M"
+      ]
+    },
+    {
+      "path": "seminars/05_slim_ease_fm/seminar.ipynb",
+      "datasets": [
+        "UCI Online Retail II"
+      ]
+    },
+    {
+      "path": "seminars/06_als_scaling/seminar.ipynb",
+      "datasets": [
+        "VK-LSVD"
+      ]
+    },
+    {
+      "path": "seminars/07_regression_ranking_content/seminar.ipynb",
+      "datasets": [
+        "T-ECD Retail"
+      ]
+    }
+  ],
+  "selected_dataset": "Amazon Reviews 2014 Video Games 5-core",
+  "selected_dataset_found_in_reviewed_seminars": false
+}

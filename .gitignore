@@ -1,0 +1,22 @@
+# Raw data, intermediate matrices, environments and caches
+/data/
+.cache/
+.cache*/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.gz
+*.zip
+*.parquet
+*.pkl
+*.pt
+*.npy
+*.npz
+.env
+.env.*
+# Per-user derived arrays/metrics stay local; publish aggregate results only.
+/results/metrics_*.csv

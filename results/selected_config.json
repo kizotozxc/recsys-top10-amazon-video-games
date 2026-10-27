@@ -1,0 +1,69 @@
+{
+  "configs": {
+    "CustomALS": {
+      "alpha": 20.0,
+      "factors": 64,
+      "half_life_days": 180,
+      "iterations": 12,
+      "regularization": 10.0,
+      "seed": 42
+    },
+    "CustomALS_matched": {
+      "alpha": 20.0,
+      "factors": 64,
+      "half_life_days": 180,
+      "iterations": 12,
+      "regularization": 1.0,
+      "seed": 42
+    },
+    "EASE": {
+      "regularization": 50.0
+    },
+    "FM": {
+      "batch_size": 4096,
+      "epochs": 8,
+      "factors": 32,
+      "learning_rate": 0.01,
+      "regularization": 0.0001,
+      "seed": 42,
+      "use_metadata": true
+    },
+    "FM_ID_only": {
+      "batch_size": 4096,
+      "epochs": 8,
+      "factors": 32,
+      "learning_rate": 0.01,
+      "regularization": 0.0001,
+      "seed": 42,
+      "use_metadata": false
+    },
+    "ItemKNN": {
+      "neighbours": 50,
+      "shrinkage": 20.0
+    },
+    "iALS": {
+      "alpha": 20.0,
+      "factors": 64,
+      "iterations": 12,
+      "regularization": 1.0,
+      "seed": 42
+    }
+  },
+  "primary_metric": "NDCG@10",
+  "seed": 42,
+  "validation_protocol": {
+    "candidate_items": 9600,
+    "candidate_sha256": "8c02d60997a77e48343d3fb0501ed69f98b266df4e6e8b789b7687b136c96df4",
+    "cold_item_events": 14655,
+    "cold_user_events": 23966,
+    "cutoff": "2013-01-01 00:00:00+00:00",
+    "evaluated_relevant_events": 7314,
+    "evaluation_user_sha256": "4b484f7a1218bf3a724e9db3a96524f5ed82b4843c7f94f41be27ab06efd1901",
+    "evaluation_users": 2906,
+    "future_events": 52460,
+    "history_events": 152665,
+    "history_users": 19161,
+    "stage": "validation",
+    "warm_relevant_events": 14391
+  }
+}
